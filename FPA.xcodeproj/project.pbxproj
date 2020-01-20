@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -50,7 +50,6 @@
 				686AF445EA1B15CB9B294F07 /* Pods-FPA.debug.xcconfig */,
 				58A1D2B92C8EFB4DD8BC1B42 /* Pods-FPA.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
