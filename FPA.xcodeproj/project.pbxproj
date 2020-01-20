@@ -13,7 +13,7 @@
 		6918C74F23D228BA00908D05 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6918C74D23D228BA00908D05 /* Main.storyboard */; };
 		6918C75123D228BB00908D05 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6918C75023D228BB00908D05 /* Assets.xcassets */; };
 		6918C75423D228BB00908D05 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6918C75223D228BB00908D05 /* LaunchScreen.storyboard */; };
-		69A88DE823D52D12005BFD4A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 69A88DE723D52D12005BFD4A /* GoogleService-Info.plist */; };
+		6928864823D646460096D877 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6928864723D646460096D877 /* GoogleService-Info.plist */; };
 		EB5D0A596916B79092A31ECC /* Pods_FPA.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21C811D40C645D704E50C6D6 /* Pods_FPA.framework */; };
 /* End PBXBuildFile section */
 
@@ -29,7 +29,7 @@
 		6918C75023D228BB00908D05 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6918C75323D228BB00908D05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6918C75523D228BB00908D05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		69A88DE723D52D12005BFD4A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		6928864723D646460096D877 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,7 +89,7 @@
 				6918C75023D228BB00908D05 /* Assets.xcassets */,
 				6918C75223D228BB00908D05 /* LaunchScreen.storyboard */,
 				6918C75523D228BB00908D05 /* Info.plist */,
-				69A88DE723D52D12005BFD4A /* GoogleService-Info.plist */,
+				6928864723D646460096D877 /* GoogleService-Info.plist */,
 			);
 			path = FPA;
 			sourceTree = "<group>";
@@ -155,7 +155,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6918C75423D228BB00908D05 /* LaunchScreen.storyboard in Resources */,
-				69A88DE823D52D12005BFD4A /* GoogleService-Info.plist in Resources */,
+				6928864823D646460096D877 /* GoogleService-Info.plist in Resources */,
 				6918C75123D228BB00908D05 /* Assets.xcassets in Resources */,
 				6918C74F23D228BA00908D05 /* Main.storyboard in Resources */,
 			);
