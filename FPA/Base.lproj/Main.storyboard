@@ -24,6 +24,13 @@
                                     <action selector="Button1:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ueq-xh-C3J"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Guess the Number!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4yd-9Q-eqV">
+                                <rect key="frame" x="58" y="230" width="299" height="43"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="36"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ZlI-WQ-oOz">
                                 <rect key="frame" x="159" y="336" width="97" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -34,11 +41,11 @@
                                     <action selector="TextField:" destination="BYZ-38-t0r" eventType="editingDidEnd" id="tmd-Mm-GfP"/>
                                 </connections>
                             </textField>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Guess the Number!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4yd-9Q-eqV">
-                                <rect key="frame" x="58" y="230" width="299" height="43"/>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Hints Will Be Shown Here" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5R8-a3-7Vl">
+                                <rect key="frame" x="111" y="378" width="194" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="36"/>
-                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
@@ -48,6 +55,9 @@
                     </view>
                     <navigationItem key="navigationItem" id="pQq-Ba-v4T"/>
                     <connections>
+                        <outlet property="GuessNumber" destination="4yd-9Q-eqV" id="uS1-sU-j8X"/>
+                        <outlet property="Hint" destination="5R8-a3-7Vl" id="AOc-VM-8wW"/>
+                        <outlet property="SubmitButton" destination="jk6-21-1gK" id="E9E-4t-Zv2"/>
                         <outlet property="TextField" destination="ZlI-WQ-oOz" id="fY8-BA-hMg"/>
                     </connections>
                 </viewController>

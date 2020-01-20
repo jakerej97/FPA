@@ -14,7 +14,9 @@ class ViewController: UIViewController {
     var ref: DatabaseReference!
     
     @IBOutlet weak var TextField: UITextField!
-    //@IBOutlet weak var TextField2: UITextField!
+    @IBOutlet weak var Hint: UILabel!
+    @IBOutlet weak var GuessNumber: UILabel!
+    @IBOutlet weak var SubmitButton: UIButton!
     
     let lowerBound = 1
     let upperBound = 100
@@ -53,6 +55,7 @@ class ViewController: UIViewController {
             numberOfGuesses += 1
             if Int(TextField.text!) == numberToGuess {
                 print("You Win!")
+                Hint.text = "You Win!"
                 addUser()
             } else {
                 let guess = Int(TextField.text!)
@@ -60,8 +63,10 @@ class ViewController: UIViewController {
                     print("Your guess should be between 1 and 100!")
                 } else if guess! < numberToGuess {
                     print("Higher!")
+                    Hint.text = "Higher!"
                 } else if guess! > numberToGuess {
                     print("Lower!")
+                    Hint.text = "Lower!"
                 }
             }
         } else {
