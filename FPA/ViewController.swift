@@ -18,6 +18,10 @@ class ViewController: UIViewController {
     @IBOutlet weak var GuessNumber: UILabel!
     @IBOutlet weak var SubmitButton: UIButton!
     
+    @IBOutlet weak var PeteLabel1: UILabel!
+    @IBOutlet weak var PeteLabel2: UILabel!
+    @IBOutlet weak var PeteLabel3: UILabel!
+    
     let lowerBound = 1
     let upperBound = 100
     var numberToGuess: Int!
